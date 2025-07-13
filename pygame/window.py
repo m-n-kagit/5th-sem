@@ -210,7 +210,7 @@ while True:
         else:
             if event.type==pygame.KEYDOWN and event.key==pygame.K_SPACE : 
                 game_active =True
-                snail_rect.left = 800 
+                # snail_rect.left = 800 
             bg_music.stop() #for stopping the music loop
             music_started=False
         if game_active :
