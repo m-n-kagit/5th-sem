@@ -1,0 +1,20 @@
+{
+  "name": "5th-sem",
+  "version": "1.0.0",
+  "main": ".js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-n-kagit/5th-sem.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m-n-kagit/5th-sem/issues"
+  },
+  "homepage": "https://github.com/m-n-kagit/5th-sem#readme",
+  "description": ""
+}

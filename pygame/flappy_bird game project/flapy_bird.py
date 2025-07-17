@@ -132,13 +132,14 @@ while(True):
             if event.type == py.QUIT : 
                 py.quit()
                 exit()
-            if event.type == Obstaccle_Event :
-                obstacle_list.add(Obstacle_norm())
-                obstacle_f.add(Obstacle_flipped()) 
+            if game_active:
+                if event.type == Obstaccle_Event :
+                    obstacle_list.add(Obstacle_norm())
+                    obstacle_f.add(Obstacle_flipped()) 
             if event.type == py.KEYDOWN and event.key == py.K_SPACE and not game_active:
-                 print("Pressed spacekey")
-                 score=0
-                 game_active = True
+                print("Pressed spacekey")
+                score=0
+                game_active = True
     if(game_active):             
         screen.blit(background_img_scaled,(0,-90))
         inc+= 1
@@ -158,6 +159,7 @@ while(True):
 
 
     else:
+        x_pos = random.randint(430,500)
         screen.blit(background_img_scaled,(0,-90))
         message = text_font.render("Press Space bu tton to start",False,(200,111,156))
         score_t = text_font.render(f"Your Score:{score}",False,(212, 81, 11))

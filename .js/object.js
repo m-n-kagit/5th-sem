@@ -64,5 +64,18 @@ function getObjects(name,city){
     }
 }
 
+
 const student = getObjects(name,age)
 console.log(student);
+const obj4={
+    name:"Mohit",
+    class:"3rd yr",
+    city:"Jaipur"
+}
+
+const is_prop = "age" in obj4; //checks if the key is present or not
+console.log(is_prop);
+
+for(let key in obj4){
+    console.log(key,obj4[key]);
+}

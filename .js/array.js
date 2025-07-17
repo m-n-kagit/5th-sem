@@ -28,29 +28,29 @@
 // console.log(newuniId);
 // console.log(newunistuID);
 
-// const newlist = new Set();
-// newlist.add(1);
-// newlist.add(2);
-// //newlist.clear()
-// //newlist.delete(1);
+const newlist = new Set();
+newlist.add(1);
+newlist.add(2);
+//newlist.clear()
+//newlist.delete(1);
 
 // console.log(newlist.values());
 // console.log(newlist.keys());
 // console.log(newlist.entries());
 // console.log(newlist.has(1)); //true or false
 
-// newlist.forEach((value) =>
-// {
-//     console.log(value);
-//     console.log({value});
+newlist.forEach((value) =>
+{
+    console.log(value);
+    console.log({value});
     
-// }
-// )
+}
+)
 
-// let arr=[1,2,3,4]
-// let b=[3,2,1,4]
-// let c  = arr.concat(b)
-// let d=arr.pop()
+let arr=[1,2,3,4]
+let b=[3,2,1,4]
+let c  = arr.concat(b)
+let d=arr.pop()
 // console.log(d);
 // let s = arr.slice(0,3)
 // console.log( typeof s); //returns object
@@ -75,23 +75,24 @@
 // console.log(arr3.join("")); //change it into  a string 
 // const arr4 =[ ...arr , ...arr2,...arr3,5,6]
 // console.log(arr4);
-const [a,a2,a3] = [1,2,3] //destructing 
-console.log(a);
-console.log(a2);
-console.log(a3);
-const [,,,z]=[1,2,3,4] // i.e at the fourth index 
-console.log("z=",z);
-const [c1,c2,...rest]=["hari","Golu",5,4,1,10,5]
-console.log(c1);
-console.log(c2);
-console.log(rest);
-let rest_arr = [...rest] //spread operator 
-console.log(rest_arr)
-let b1=2;
-let b2=3; 
-[b1,b2] = [b2,b1] //swaping 
-console.log(b1); 
-console.log(b2);
+// const [a,a2,a3] = [1,2,3] //destructing 
+// console.log(a);
+// console.log(a2);
+// console.log(a3);
+// const [,,,z]=[1,2,3,4] // i.e at the fourth index 
+// console.log("z=",z);
+// const [c1,c2,...rest]=["hari","Golu",5,4,1,10,5]
+// console.log(c1);
+// console.log(c2);
+// console.log(rest);
+// let rest_arr = [...rest] //spread operator 
+// console.log(rest_arr)
+// let b1=2;
+// let b2=3; 
+// [b1,b2] = [b2,b1] //swaping 
+// console.log(b1); 
+// console.log(b2);
+
 
 
 
