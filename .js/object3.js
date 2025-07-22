@@ -127,7 +127,7 @@ const user2 = {
     name:"Raghav"
 }
 
-displayName2.apply(user2) //shows global object as it is an aarrow function
+displayName2.apply(user2) //shows global object as it is an arrow function
 
 //ex-04
 const person = {
