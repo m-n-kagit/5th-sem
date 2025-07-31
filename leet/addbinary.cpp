@@ -39,5 +39,7 @@ int main() {
     string ans;
     ans=s1.addBinary(a,b);
     cout << ans;
+    cout<<endl;
+    int count =4;
     return 0;
 }
