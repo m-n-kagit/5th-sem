@@ -21,21 +21,20 @@ startBtn.addEventListener("click",()=>{
     //     startBtn.innerText = "Start";
     // }
     startBtn.classList.toggle("start_active");
-    startBtn.innerHTML = `<span>Lets begin </span>`
+    // startBtn.innerHTML = `<span>Lets begin </span>`
 })
 
 let input = document.querySelector(".input");
-// input.addEventListener("change",()=>{
-//     console.log(input.value);
+input.addEventListener("change",()=>{
+    console.log(input.value);
     
-// })
-// input.addEventListener("focus",()=>{
-//     console.log(input.value);
+})
+input.addEventListener("focus",()=>{
+    console.log(input.value);
     
-// })
+})
 // input.addEventListener("input",()=>{
 //     console.log(input.value);
-    
 // })
 // input.addEventListener("keyup",()=>{
 //     console.log(input.value);
@@ -53,11 +52,12 @@ let input = document.querySelector(".input");
 //     console.log(`xcore:${xpos} ` ,`ycore:${ypos}`);
 // }
 // )
-input.addEventListener("mousedown",(event)=>{
-    let xpos = event.clientX;
-    let ypos = event.clientY;
-    console.log(`xcore:${xpos} ` ,`ycore:${ypos}`);
+// input.addEventListener("mousedown",(event)=>{
+//     let xpos = event.clientX;
+//     let ypos = event.clientY;
+//     console.log(`xcore:${xpos} ` ,`ycore:${ypos}`);
     
-})
+// })
+
 
 

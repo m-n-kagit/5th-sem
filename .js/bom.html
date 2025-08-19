@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Window Object</h1>
+    <div class="container">
+        <button id="showUrl1">show Current Url</button>
+        <button id="redirect">Redirect to Google</button>
+        <button id ="screenInfo">Show Screen Information</button>
+        <button id ="showAlert" onclick="showAlert()">Alert Box</button>
+        <button id ="showConfirm" onclick="showConfirm()">Confirm box</button>
+        <button id="showPrompt" onclick="showPrompt()">Prompt Box</button>
+    </div>
+    <script>
+        var yourname = "I don't know!"
+        console.log(window.yourname)
+        console.log(window);
+        console.log(navigator.online);
+        
+        
+        function showAlert(){
+            alert("Anything!!");
+        }
+        function showConfirm(){
+            const result =confirm("Do you want to visit to google website.");
+            if(result){
+                window.location.href= "https://google.com"
+            }
+        }
+        function showPrompt(){
+            const result =prompt("Whats your age?");
+            console.log(result);
+            if(Number(result)>=18){
+                alert("you are eligible to vote.");    
+            }
+            else{
+                alert("not eligible to vote.");
+                
+            }
+        }
+
+    </script>
+</body>
+</html>

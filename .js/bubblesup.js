@@ -14,4 +14,4 @@ child.addEventListener("click",(event)=>{
 parent.addEventListener("click",(event)=>{
     alert("parent tag")
 },true); //  true after function, means capturing 
-//usage is in event allegation 
+//used is in event delegation 
