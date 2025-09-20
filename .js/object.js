@@ -1,6 +1,6 @@
 // object --> {key,value}
 //object keys must be string 
-//implicitly change the key element   to string if it is a word 
+//implicitly change the key element to string if it is a word 
 
 const obj = {
     name : "Prakash", //property

@@ -31,7 +31,6 @@ input.addEventListener("change",()=>{
 })
 input.addEventListener("focus",()=>{
     console.log(input.value);
-    
 })
 // input.addEventListener("input",()=>{
 //     console.log(input.value);
