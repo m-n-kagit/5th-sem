@@ -26,6 +26,7 @@ body {
   width: 100%;
   font-size: 1.25rem;
   padding: 8px 4px;
+  text-decoration: none;
 }
 
 .input:focus {

@@ -6,12 +6,12 @@ child.addEventListener("click",(event)=>{
 });
 parent.addEventListener("click",(event)=>{
     alert("parent tag")
-}); // by defalut false after function, means bubbling 
+}); // by defalut false after function, means event bubbling 
 child.addEventListener("click",(event)=>{
     alert("child tag")
 },true);
 
 parent.addEventListener("click",(event)=>{
     alert("parent tag")
-},true); //  true after function, means capturing 
+},true); //  true after function, means event capturing 
 //used is in event delegation 
